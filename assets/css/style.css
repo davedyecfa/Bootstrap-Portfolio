@@ -13,7 +13,7 @@ body {
   clear: both;
   margin: 0 auto;
   width: 100%;
-  max-width: 960px;
+  /*max-width: 960px;*/
 }
 h1,
 h2,
@@ -42,19 +42,26 @@ h3 {
   font-size: 22px;
 }
 /*header*/
-#masthead {
-  position: fixed;
-  z-index: 99;
-  margin: 0 0 30px;
-  overflow: auto;
-  width: 100%;
+
+.header-background {
   color: #fff;
   background: #fff;
-  border-bottom: 2px solid #ccc;
+
+}
+
+#masthead {
+  /*position: fixed;*/
+  /*z-index: 99;*/
+  /*margin: 0 0 30px;*/
+  /*overflow: auto;*/
+  /*width: 100%;*/
+  /*color: #fff;*/
+  background: #fff;
+  /*border-bottom: 2px solid #ccc;*/
 }
 #logo {
-  width: 250px;
-  height: 90px;
+  width: 38%;
+  height: 100%;
   float: left;
   font-family: 'Georgia', Times, Times New Roman, serif;
   text-align: center;
@@ -64,10 +71,12 @@ h3 {
   font-size: 30px;
   text-decoration: none;
   background: #4aaaa5;
+  margin-left: 10%;
 }
 nav {
-  float: right;
+  /*float: right;*/
   margin-top: 25px;
+  margin-left: 10%;
 }
 nav a {
   display: inline-block;
@@ -95,17 +104,17 @@ footer {
 /*sidebar*/
 .sidebar {
   padding: 30px;
-  width: 100%;
-  max-width: 270px;
-  float: right;
+  width: 70%;
+  /*max-width: 270px;*/
   margin-bottom: 20px;
   background: #fff;
   border: 1px solid #ddd;
+
 }
 h3,
 .sidebar h2 {
   padding-bottom: 20px;
-  margin-bottom: 15px;
+  /*margin-bottom: 15px;*/
   line-height: 22px;
   border-bottom: 2px solid #eee;
 }
@@ -124,12 +133,14 @@ h3,
 }
 .main-section {
   padding: 30px;
-  margin: 0 0 40px 0;
+  /*margin: 0 0 40px 0;*/
+  margin-bottom: 10%;
   width: 100%;
-  max-width: 650px;
+  /*max-width: 650px;*/
   float: left;
   background: #fff;
   border: 1px solid #ddd;
+  height: 100%;
 }
 /*portfolio page*/
 .work {
